@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: var(--font1);
+}
+html{
+    font-size: 10px;
+}
+.montaga-regular {
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+:root{
+    --font1:"Montaga", serif;
+    --linkcolor:#2B1105;
+    --linksize:22px;
+    --textcolor:#C6754D;
+    --hcolor:#FCF9F7;
+}  
+a{
+    text-decoration: none;
+    color: var(--linkcolor);
+    font-size: var(--linksize);
+}
+#join{
+    font-size: 2.4rem;
+    color: var(--textcolor);
+}
+#story{
+    color: var(--hcolor);
+}
+p{
+    color: var(--hcolor);
+}
+#venue{
+    color: var(--textcolor);
+}
+h1{
+    color: var(--linkcolor);
+}
+#but{
+    width: 11.6rem;
+    height: 6.4rem;
+    font-size: 2.2rem;
+    border: 1px solid var(--textcolor);
+    color: var(--textcolor);
+}
+#but:hover{
+    transition: 0.5s;
+    background: var(--textcolor);
+    color: white;
+}
